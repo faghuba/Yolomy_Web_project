@@ -32,7 +32,7 @@ main {
     background-size: cover;
     font-family: 'Roboto',sans-serif;
     padding: 20px;
-    height: auto;
+    height: 800px !important;
 }
 
 .navBar {
@@ -102,34 +102,68 @@ main {
 /* SECTION PRODUCTS  */
 
 .products {
-    display: flex;
-    padding: 30px;
-    background: var(--color-banner);
+    border-right: 1px solid #aaa;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
-.products .check {
-    display: inline-flex;
-    font-size: 16px;
-    margin-right: 20px;
-    padding: 20px;
+.product-header {
+    background-color: var(--color-banner);
+    display: flex;
+
+}
+.check-box {
+    padding: 30px;
+    align-items: center;
 }
 
-.check .form-check-label {
+.form-check{
+    display: inline-block;
     margin-right: 40px;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-right: 10px;
+    color: #000;
+
+
 }
 
 .form-check-input:checked {
-    background-color:var(--color-banner);
-    border-color: #aaa;
+    background-color: #aaa;
+    border-color:var(--color-banner);
+    border: 1px solid #fefefe;
+    
 }
 
-.products .btn {
-    background: var(--color-button);
+.form-check-input {
+    width: 1.5em;
+    height: 1.5em;
+    margin-top: .1em;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border: 1px solid rgba(39, 32, 32, 0.25);
+    background-color: var(--color-banner);
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-product {
+    font-weight: 300;
+    line-height: 1.5;
     color: var(--text-color);
-    border: none;
+    background-color: var(--color-button);
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 1rem;
     border-radius: 5px;
-    align-items: center;
     text-transform: uppercase;
+    align-items: center;
+    padding: 10px;
+    margin-top: 30px;
+    justify-content: center;
 }
