@@ -110,7 +110,7 @@ main {
 .product-header {
     background-color: var(--color-banner);
     display: flex;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 
 }
 .check-box {
@@ -171,12 +171,12 @@ main {
 }
 
 /* PRODUCT-CONTENT  */
-.product-Content {
+/* .product-Content {
     margin-top: 10px;
     clear: both;
     margin-bottom: 20px;
     
-}
+} */
 
 
 /* Product courasel  */
@@ -184,8 +184,8 @@ main {
 
 
 .cta-100 {
-    margin-top: 100px;
-    padding-left: 8%;
+    /* margin-top: 100px; */
+    /* padding-left: 8%; */
     padding-top: 7%;
   }
   .col-md-4{
@@ -254,21 +254,33 @@ main {
   .item-box-blog-date {
     position: absolute;
     z-index: 5;
-    padding: 4px 20px;
-    top: -20px;
-    right: 8px;
-    background-color: #41cb52;
+    padding: 2px 8px;
+    top: -10px;
+    /* right: 20px; */
+    /* background-color: #41cb52; */
   }
   
+  .data-info {
+    display: flex;
+    justify-content: space-between;
+    right: 0;
+  }
+
+  #data-info-name {
+    color: var(--color-banner);
+    text-transform: uppercase;
+  }
+
   .item-box-blog-date span {
-    color: #fff;
+    color: var(--color-footer);
     display: block;
     text-align: center;
     line-height: 1.2;
   }
   
   .item-box-blog-date span.mon {
-    font-size: 18px;
+    font-size: 14px;
+    text-transform: uppercase;
   }
   
   .item-box-blog-date span.day {
