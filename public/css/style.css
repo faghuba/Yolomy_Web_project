@@ -135,6 +135,11 @@ main {
     border: 1px solid #fefefe;
     
 }
+.form-check-label {
+  margin-left: 15px;
+  text-align: center;
+  font-weight: 400;
+}
 
 .form-check-input {
     width: 1.5em;
@@ -185,7 +190,9 @@ main {
 
 .cta-100 {
     padding-top: 7%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   }
+
   .col-md-4{
       padding-bottom:10px;
   }
@@ -194,16 +201,17 @@ main {
     color: #fff !important;
   }
 
-  #men-gender {
-    margin-top: 30px;
-    padding: 10px;
+  #gender {
+    margin-top: 20px;
     align-items: center;
     color: #708198;
     font-size: 24px;
     letter-spacing: .5rem;
+    padding-bottom: 15px;
+    padding-top: 15px;
   }
 
-  #men-gender h3 {
+  #gender h3 {
     margin-right: 20px;
   }
 
@@ -242,12 +250,13 @@ main {
   }
   
   #first-item {
-    border: 3px solid #dadada;
+    border: 1px solid #dadada;
     text-align: center;
     z-index: 4;
     padding: 20px;
-    background-color: #dcdcdc;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
   }
+
 
   #not-Active-item{
     /* border: 3px solid #dadada; */
@@ -311,3 +320,53 @@ main {
     font-size: 14px;
   }
   
+
+  /* ABOUT-US SECTION  */
+
+  .about-us {
+    display: flex;
+    background-image: url('../../assets/backgrounds/about.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-color);
+    padding: 60px;
+  }
+
+  .about-us img {
+    width: 100% !important;
+  }
+  .content {
+    height:auto;
+    width: 70%;
+    align-items: center;
+    text-align: center;
+    border:1px solid #908361;
+    margin-top:20px;
+}
+
+.content h3 {
+    /* width:140px; */
+    text-align:center;
+    font-size:24px;
+    text-transform:uppercase;
+    margin-top: 40px;
+    padding: 10px;
+    letter-spacing:.25rem;
+}
+
+.content p {
+  text-align:center;
+  word-spacing: .25rem;
+  padding:20px;
+  margin-top:20px;
+  font-size:20px;
+  margin-bottom:20px;
+  font-weight: 400;
+  letter-spacing: .25rem;
+
+}
