@@ -370,3 +370,36 @@ main {
   letter-spacing: .25rem;
 
 }
+
+/* FOOTER SECTION  */
+
+/* BIG -SALE  */
+.big-sale {
+  display: flex;
+  padding: 20px;
+  background-color: var(--sub-footer);
+  align-items: center;
+  text-align: center;
+}
+
+.big-sale i {
+  color: #00acee ;
+  font-size: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+}
+.big-sale .promo {
+  display: inline;
+  color: var(--text-color);
+  font-size: 16px;
+  font-family: 'Roboto' sans-serif;
+}
+
+.big-sale .promo span.sale {
+  text-transform: uppercase;
+}
+
+.big-sale p {
+  font-size: 16px;
+}
