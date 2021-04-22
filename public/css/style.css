@@ -376,17 +376,18 @@ main {
 /* BIG -SALE  */
 .big-sale {
   display: flex;
-  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   background-color: var(--sub-footer);
-  align-items: center;
-  text-align: center;
 }
 
 .big-sale i {
   color: #00acee ;
   font-size: 30px;
-  padding-left: 40px;
+  left: 0;
   padding-right: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
   align-items: center;
 }
 .big-sale .promo {
@@ -398,8 +399,102 @@ main {
 
 .big-sale .promo span.sale {
   text-transform: uppercase;
+  font-weight: 400;
 }
 
 .big-sale p {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+/* SOCIAL SECTION  */
+.social {
+  background-color: var(--color-footer);
+  padding-top: 20px;
+}
+
+.social h3 {
+  padding-top: 30px;
+  text-align: center;
+  color: var(--text-color);
+  font-size:24px;
+  font-weight: 400;
+}
+
+.social h4 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 14px;
+  color: var(--text-color);
+  font-weight: lighter;
+}
+
+/* yolo-tag  */
+
+.yolo-tag {
+  text-transform: uppercase;
+  color: var(--text-color);
+  align-items: center;
+  margin-top: 40px;
+}
+
+.yolo-tag h3 {
+  text-align: left;
+}
+
+.yolo-tag p {
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.media {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.media h3 {
+  font-size: 24px;
+  font-weight: 300;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  align-items: center;
+}
+
+.media img {
+padding-left: 0;
+padding-right: 10px;
+padding-bottom: 10px;
+
+}
+
+.footer-links {
+  display: inline-block;
+  padding-top: 100px;
+}
+
+ .footer-links a {
+  color: var(--text-color);
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 200;
+}
+
+#credit, #privacy, #about {
+  margin-right: 15px;
+  border-width: .25rem;
+  border-right: 2px solid var(--sub-footer);
+  padding-right: 10px;
+}
+
+.footer-slogan h4 {
+  text-align: left;
+  font-weight: 300;
+  font-size: 22px;
+  text-transform: none;
 }
